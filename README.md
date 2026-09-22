@@ -46,4 +46,4 @@ see the main repo's [`AGENTS.md`](https://github.com/brianramseyau/EveryList/blo
 for the full release process.
 
 [ha-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[ha-add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fbrianramseyau%2Feverylist-ha-app
+[ha-add-repo]: https://my.home-assistant.io/redirect/supervisor_store/?repository_url=https%3A%2F%2Fgithub.com%2Fbrianramseyau%2Feverylist-ha-app
