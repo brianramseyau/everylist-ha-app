@@ -1,30 +1,30 @@
-# EveryList — Home Assistant Add-on Repository
+# EveryList — Home Assistant App Repository
 
 [![Add repository to my Home Assistant][ha-badge]][ha-add-repo]
 
-This is the [Home Assistant Supervisor add-on repository](https://www.home-assistant.io/common-tasks/os/#installing-a-third-party-add-on-repository)
+This is the [Home Assistant Supervisor app repository](https://www.home-assistant.io/common-tasks/os/#installing-a-third-party-app-repository)
 for [EveryList](https://github.com/brianramseyau/EveryList), a mobile-first, offline-first
 shopping/task list app. It runs the same self-hosted image published for Docker/Unraid — one
 container, one SQLite database, nothing else to configure.
 
 ## Installation
 
-Click the badge above, or add this repository under **Settings → Add-ons → Add-on Store →
-⋮ → Repositories**:
+Click the badge above, or follow Home Assistant's [instructions for installing a third-party app repository](https://www.home-assistant.io/common-tasks/os/#installing-a-third-party-app-repository)
+(**Settings → Apps → Install app → ⋮ → Repositories**) with:
 
 ```
 https://github.com/brianramseyau/everylist-ha-app
 ```
 
-Then install **EveryList** from the Add-on Store. See [`everylist/DOCS.md`](everylist/DOCS.md)
-for the add-on's configuration options.
+Then install **EveryList** from there. See [`everylist/DOCS.md`](everylist/DOCS.md)
+for the app's configuration options.
 
 ## What's in this repo
 
 ```
-├── repository.yaml       # Supervisor add-on repository manifest
+├── repository.yaml       # Supervisor app repository manifest
 └── everylist/
-    ├── config.yaml         # add-on manifest (image, version, options)
+    ├── config.yaml         # app manifest (image, version, options)
     ├── CHANGELOG.md         # per-release notes, linking to full EveryList release notes
     ├── DOCS.md               # end-user install/config docs shown in the HA Supervisor UI
     └── icon.png
