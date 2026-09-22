@@ -1,0 +1,34 @@
+name: Validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: YAML must parse
+        run: |
+          python3 -c "
+          import sys, yaml
+          for f in ['repository.yaml', 'everylist/config.yaml']:
+              with open(f) as fh:
+                  yaml.safe_load(fh)
+              print(f'{f}: OK')
+          "
+
+      - name: version must be a plain vX.Y.Z tag
+        run: |
+          python3 -c "
+          import re, sys, yaml
+          with open('everylist/config.yaml') as fh:
+              config = yaml.safe_load(fh)
+          version = config.get('version', '')
+          if not re.fullmatch(r'v\d+\.\d+\.\d+', str(version)):
+              print(f'everylist/config.yaml: version {version!r} is not a plain vX.Y.Z tag', file=sys.stderr)
+              sys.exit(1)
+          print(f'version: {version} OK')
+          "
