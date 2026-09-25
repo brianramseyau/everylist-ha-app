@@ -7,7 +7,7 @@
 # image for that tag has finished publishing - so this never advertises a
 # version whose image doesn't exist yet.
 name: EveryList
-version: 'v1.7.0'
+version: 'v1.7.1'
 slug: everylist
 description: Mobile-first, offline-first shopping/task lists — self-hosted, single container
 url: https://github.com/brianramseyau/EveryList

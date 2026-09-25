@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.7.1
+
+See the [full EveryList release notes](https://github.com/brianramseyau/EveryList/releases/tag/v1.7.1).
+
 ## v1.7.0
 
 **Upgrading:** one automatic, additive database migration runs on first boot
