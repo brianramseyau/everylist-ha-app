@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.7.2
+
+See the [full EveryList release notes](https://github.com/brianramseyau/EveryList/releases/tag/v1.7.2).
+
 ## v1.7.1
 
 See the [full EveryList release notes](https://github.com/brianramseyau/EveryList/releases/tag/v1.7.1).
