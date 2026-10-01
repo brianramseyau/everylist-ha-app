@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.8.0
+
+See the [full EveryList release notes](https://github.com/brianramseyau/EveryList/releases/tag/v1.8.0).
+
 ## v1.7.4
 
 See the [full EveryList release notes](https://github.com/brianramseyau/EveryList/releases/tag/v1.7.4).
